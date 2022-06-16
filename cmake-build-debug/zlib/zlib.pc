@@ -1,0 +1,13 @@
+prefix=C:/Program Files (x86)/Lab2PngToPnm
+exec_prefix=C:/Program Files (x86)/Lab2PngToPnm
+libdir=C:/Program Files (x86)/Lab2PngToPnm/lib
+sharedlibdir=C:/Program Files (x86)/Lab2PngToPnm/lib
+includedir=C:/Program Files (x86)/Lab2PngToPnm/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
